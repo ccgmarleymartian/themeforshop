@@ -107,7 +107,7 @@ a h4{
 /* overlay */
 
 .overlay {
-  position: relative;
+  position: top;
 
   &::before {
     position: absolute;
