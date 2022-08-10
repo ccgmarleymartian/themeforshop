@@ -107,10 +107,10 @@ a h4{
 /* overlay */
 
 .overlay {
-  position: top;
+  position: relative;
 
   &::before {
-    position: absolute;
+    position: top;
     content: '';
     height: 100%;
     width: 100%;
